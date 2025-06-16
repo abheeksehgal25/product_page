@@ -20,15 +20,16 @@ function App() {
         <nav className="text-sm mb-6">
           <ol className="list-none p-0 inline-flex">
             <li className="flex items-center">
-              <a href="#" className="text-black hover:text-gray-800 hover:underline">Home</a>
+              <a href="#" className="font-normal text-[16px] leading-[100%] tracking-[0%] font-[Inter] text-black hover:text-gray-800 hover:underline">Home</a>
               <i className="fas fa-chevron-right mx-2 text-gray-500 text-xs"></i>
             </li>
             <li className="flex items-center">
-              <a href="#" className="text-black hover:text-gray-800 hover:underline">Categories</a>
+              <a href="#" className="font-normal text-[16px] leading-[100%] tracking-[0%] font-[Inter] text-black hover:text-gray-800 hover:underline">Categories</a>
               <i className="fas fa-chevron-right mx-2 text-gray-500 text-xs"></i>
             </li>
             <li className="flex items-center">
-              <span className="text-black font-medium">Photo frames</span>
+            <a href="#" className="font-normal text-[16px] leading-[100%] tracking-[0%] font-[Inter] text-black hover:text-gray-800 hover:underline">Photo Frames</a>
+            <i className="fas fa-chevron-right mx-2 text-gray-500 text-xs"></i>
             </li>
           </ol>
         </nav>
@@ -37,43 +38,43 @@ function App() {
         <div className="flex flex-wrap items-center justify-between mb-8">
           <div className="flex flex-wrap items-center space-x-4">
             <div className="relative shadow-sm">
-              <select className="border-transparent bg-[#E2E2E2] rounded-full px-4 py-2 text-black appearance-none pr-8 hover:bg-gray-100 transition-all duration-300">
+              <select className="font-normal text-[16px] leading-[100%] tracking-[0%] font-[Inter] border-transparent bg-[#E2E2E2] rounded-full px-4 py-2 text-black appearance-none pr-8 hover:bg-gray-100 transition-all duration-300">
                 <option>Sort</option>
               </select>
               <i className="fas fa-chevron-down absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 pointer-events-none"></i>
             </div>
             <div className="relative shadow-sm">
-              <select className="border-transparent bg-[#E2E2E2] rounded-full px-4 py-2 text-black appearance-none pr-8 hover:bg-gray-100 transition-all duration-300">
+              <select className="font-normal text-[16px] leading-[100%] tracking-[0%] font-[Inter] border-transparent bg-[#E2E2E2] rounded-full px-4 py-2 text-black appearance-none pr-8 hover:bg-gray-100 transition-all duration-300">
                 <option>Size</option>
               </select>
               <i className="fas fa-chevron-down absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 pointer-events-none"></i>
             </div>
             <div className="relative shadow-sm">
-              <select className="border-transparent bg-[#E2E2E2] rounded-full px-4 py-2 text-black appearance-none pr-8 hover:bg-gray-100 transition-all duration-300">
+              <select className="font-normal text-[16px] leading-[100%] tracking-[0%] font-[Inter] border-transparent bg-[#E2E2E2] rounded-full px-4 py-2 text-black appearance-none pr-8 hover:bg-gray-100 transition-all duration-300">
                 <option>Colour</option>
               </select>
               <i className="fas fa-chevron-down absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 pointer-events-none"></i>
             </div>
             <div className="relative shadow-sm">
-              <select className="border-transparent bg-[#E2E2E2] rounded-full px-4 py-2 text-black appearance-none pr-8 hover:bg-gray-100 transition-all duration-300">
+              <select className="font-normal text-[16px] leading-[100%] tracking-[0%] font-[Inter] border-transparent bg-[#E2E2E2] rounded-full px-4 py-2 text-black appearance-none pr-8 hover:bg-gray-100 transition-all duration-300">
                 <option>Price</option>
               </select>
               <i className="fas fa-chevron-down absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 pointer-events-none"></i>
             </div>
             <div className="relative shadow-sm">
-              <select className="border-transparent bg-[#E2E2E2] rounded-full px-4 py-2 text-black appearance-none pr-8 hover:bg-gray-100 transition-all duration-300">
+              <select className="font-normal text-[16px] leading-[100%] tracking-[0%] font-[Inter] border-transparent bg-[#E2E2E2] rounded-full px-4 py-2 text-black appearance-none pr-8 hover:bg-gray-100 transition-all duration-300">
                 <option>Categories</option>
               </select>
               <i className="fas fa-chevron-down absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 pointer-events-none"></i>
             </div>
             <div className="relative shadow-sm">
-              <select className="border-transparent bg-[#E2E2E2] rounded-full px-4 py-2 text-black appearance-none pr-8 hover:bg-gray-100 transition-all duration-300">
+              <select className="font-normal text-[16px] leading-[100%] tracking-[0%] font-[Inter] border-transparent bg-[#E2E2E2] rounded-full px-4 py-2 text-black appearance-none pr-8 hover:bg-gray-100 transition-all duration-300">
                 <option>Appearance</option>
               </select>
               <i className="fas fa-chevron-down absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 pointer-events-none"></i>
             </div>
             <div className="relative shadow-sm">
-              <select className="border-transparent bg-[#E2E2E2] rounded-full px-4 py-2 text-black appearance-none pr-8 hover:bg-gray-100 transition-all duration-300">
+              <select className="font-normal text-[16px] leading-[100%] tracking-[0%] font-[Inter] border-transparent bg-[#E2E2E2] rounded-full px-4 py-2 text-black appearance-none pr-8 hover:bg-gray-100 transition-all duration-300">
                 <option>Custom rating</option>
               </select>
               <i className="fas fa-chevron-down absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 pointer-events-none"></i>
@@ -91,9 +92,9 @@ function App() {
                 <i className="fas fa-heart"></i>
               </div>
               <div className="p-3">
-                <h3 className="font-semibold text-lg mb-1">Photo frame</h3>
-                <p className="text-gray-600 text-sm mb-2">Description, size, colour, type</p>
-                <p className="text-xl font-bold text-gray-900 mb-2">Rs. 99/- <span className="text-sm font-normal text-gray-600">only</span></p>
+                <h3 className="font-normal text-[17px] leading-[100%] tracking-[0%] font-[Inter] mb-1">Photo frame</h3>
+                <p className="text-gray-600 font-normal text-[12px] leading-[100%] tracking-[0%] font-[Inter] mb-2">Description, size, colour, type</p>
+                <p className="font-bold text-[14px] leading-[100%] tracking-[0%] font-[Inter] text-gray-900 mb-2">Rs. <span className='font-normal text-[28px] leading-[24px] tracking-[0%] align-bottom font-[Inter]'>99/-</span>  <span className="font-bold text-[14px] leading-[100%] tracking-[0%] font-[Inter] text-gray-600">only</span></p>
                 <div className="flex items-center mb-4">
                   {/* Stars */}
                   <div className="flex text-yellow-400">
@@ -103,9 +104,9 @@ function App() {
                     <i className="fas fa-star"></i>
                     <i className="far fa-star"></i>
                   </div>
-                  <span className="text-gray-600 text-sm ml-2">(4)</span>
+                  
                 </div>
-                <p className="text-sm text-black hover:underline mb-4">More options</p>
+                <p className="text-gray-600 font-normal text-[12px] leading-[100%] tracking-[0%] font-[Inter] mb-4">More options</p>
                 <div className="flex space-x-2 mb-6">
                   {/* Option Thumbnails */}
                   <img src={additional} alt="Option 1" className="w-12 h-12 border rounded transform transition-all duration-300 hover:shadow-md hover:scale-105" />
@@ -113,8 +114,8 @@ function App() {
                   <img src={additional} alt="Option 3" className="w-12 h-12 border rounded transform transition-all duration-300 hover:shadow-md hover:scale-105" />
                   <img src={additional} alt="Option 4" className="w-12 h-12 border rounded transform transition-all duration-300 hover:shadow-md hover:scale-105" />
                 </div>
-                <button className="w-full bg-[#653C28] hover:bg-black text-white py-2 px-4 rounded-full focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-opacity-50 mb-2 transform transition-all duration-300 hover:shadow-lg hover:scale-105">BUY NOW</button>
-                <button className="w-full bg-[#653C28] hover:bg-black text-white py-2 px-4 rounded-full focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-opacity-50 transform transition-all duration-300 hover:shadow-lg hover:scale-105">ADD TO CART</button>
+                <button className="font-bold text-[18px] leading-[100%] tracking-[0%] font-[Inter] w-full bg-[#653C28] hover:bg-black text-white py-2 px-4 rounded-full focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-opacity-50 mb-2 transform transition-all duration-300 hover:shadow-lg hover:scale-105">BUY NOW</button>
+                <button className="font-bold text-[18px] leading-[100%] tracking-[0%] font-[Inter] w-full bg-[#653C28] hover:bg-black text-white py-2 px-4 rounded-full focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-opacity-50 transform transition-all duration-300 hover:shadow-lg hover:scale-105">ADD TO CART</button>
               </div>
             </div>
           ))}
